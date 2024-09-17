@@ -95,6 +95,6 @@ async function getAveragePriceAutoScout24(url) {
 }
 
 
-// const pricelbc = await getAveragePriceLBC('https://www.leboncoin.fr/recherche?category=2&shippable=0&u_car_brand=PORSCHE&u_car_model=PORSCHE_Cayman&fuel=1&gearbox=1&horse_power_din=280-max&regdate=2005-2007&mileage=95000-105000&owner_type=all')
+const pricelbc = await getAveragePriceLBC('https://www.leboncoin.fr/recherche?category=2&shippable=0&u_car_brand=PORSCHE&u_car_model=PORSCHE_Cayman&fuel=1&gearbox=1&horse_power_din=280-max&regdate=2005-2007&mileage=95000-105000&owner_type=all')
 const priceAuto24 = await getAveragePriceAutoScout24("https://www.autoscout24.fr/lst/audi/s3?atype=C&cy=F&desc=0&fregfrom=2015&fregto=2016&kmfrom=90000&kmto=100000&powertype=kw&search_id=k82ztjcopm&sort=standard&source=detailsearch&ustate=N%2CU")
 
